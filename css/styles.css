@@ -493,6 +493,9 @@ a:hover {
 .content-block {
   margin-bottom: var(--space-2xl);
 }
+.cards-grid + .content-block {
+  margin-top: var(--space-3xl);
+}
 .content-block h2 {
   font-size: var(--text-2xl);
   margin: 0 0 var(--space-md);
