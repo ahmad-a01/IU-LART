@@ -580,7 +580,6 @@ a:hover {
   width: 100%;
   height: auto;
   display: block;
-  vertical-align: middle;
 }
 .media-block__content {
   min-width: 0;
@@ -622,7 +621,6 @@ a:hover {
   width: 100%;
   height: auto;
   display: block;
-  vertical-align: middle;
 }
 .image-grid figcaption {
   padding: var(--space-md);
