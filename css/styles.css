@@ -755,18 +755,66 @@ a:hover {
   }
 }
 .team-member {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  padding: var(--space-lg);
-  font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.team-member-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  background: #16161d;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: var(--space-xl) var(--space-lg) var(--space-lg);
   transition: border-color 0.2s ease;
 }
-.team-member:hover {
-  border-color: rgba(255, 255, 255, 0.15);
+.team-member-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.team-member-card__photo {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--bg-elevated);
+  margin: 0 0 var(--space-md);
+}
+.team-member-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.team-member-card__name {
+  margin: 0 0 var(--space-xs);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: var(--leading-snug);
+}
+
+.team-member-card__degree {
+  margin: 0;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: #e55050;
+  line-height: var(--leading-snug);
+}
+
+.team-member-card__bio {
+  margin: var(--space-lg) 0 0;
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 100%;
 }
 
 /* ===== Competitions page – race schedule ===== */
