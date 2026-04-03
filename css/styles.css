@@ -294,7 +294,7 @@ a:hover {
   text-align: center;
   margin: 0 0 var(--space-lg);
   font-size: clamp(var(--text-3xl), 5.5vw, var(--text-6xl));
-  font-weight: 700;
+  font-weight: 500;
   line-height: var(--leading-tight);
   letter-spacing: -0.02em;
   color: var(--white);
@@ -336,7 +336,7 @@ a:hover {
   white-space: nowrap;
   text-align: center;
   font-size: clamp(0.7rem, 2.35vw, var(--text-xl));
-  font-weight: 700;
+  font-weight: 500;
   line-height: var(--leading-snug);
   color: var(--white);
 }
@@ -376,7 +376,7 @@ a:hover {
   .hero-layout {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     /* Larger separation between text column and photo */
-    gap: 15rem;
+    gap: 10rem;
   }
 
   .hero-copy {
